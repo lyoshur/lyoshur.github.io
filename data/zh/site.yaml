@@ -12,9 +12,3 @@ customMenus:
 
 - name: 故事角
   url: https://lyoshur.github.io/story/
-
-- name: 照片墙
-  url: https://lyoshur.gitee.io/photo/
-
-- name: 旧版
-  url: https://lyoshur.gitee.io/old-lyoshur/
