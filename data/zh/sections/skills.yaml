@@ -1,0 +1,42 @@
+# section information
+section:
+  name: 专业技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Java Development
+  icon: "images/skills/java.png"
+  summary: "熟练使用SSM、spring boot等Web开发框架，了解spring cloud微服务框架，了解CSRF、XSS、SQL注入等常见网站攻击手段。"
+  url: "javascript:;"
+
+- name: Python Development
+  icon: "images/skills/python.png"
+  summary: "熟练使用Django、Flask框架进行网站开发，了解python脚本、爬虫开发。"
+  url: "javascript:;"
+
+- name: Go Development
+  icon: "images/skills/go.png"
+  summary: "能够熟练使用Go语言进行Web、接口开发，熟悉简单内网穿透、反向代理、静态托管等服务开发流程。"
+  url: "javascript:;"
+
+- name: MySQL
+  icon: "images/skills/mysql.png"
+  summary: "熟悉数据库设计范式，了解基本SQL优化，了解数据冗余保存、反范式设计等开发常用技巧。擅长SQL语句、ORM技术。"
+  url: "javascript:;"
+
+- name: Linux
+  icon: "images/skills/linux.png"
+  summary: "熟悉linux基本操作，了解java、python、go等语言在linux下的部署。在UbuntuKylin、Deepin等环境下的开发环境搭建。"
+  url: "javascript:;"
+
+- name: Git
+  icon: "images/skills/git.png"
+  summary: "熟悉GitHub、Gitee代码托管平台。了解Git基本操作，熟悉分支、标签、发行版等概念。有多个工具类库、个人网站托管在Git平台。"
+  url: "javascript:;"

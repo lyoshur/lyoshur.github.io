@@ -1,0 +1,82 @@
+# section information
+section:
+  name: 项目
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Python
+  filter: "Python"
+- name: Go
+  filter: "Go"
+- name: Java
+  filter: "Java"
+
+# your projects
+projects:
+- name: mysqlmapper
+  logo: images/skills/python.png
+  role: ORM
+  timeline: "约2020年1月创建"
+  repo: https://github.com/lyoshur/mysqlmapper # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Python下的仿mybatis数据库ORM框架，适用于mysql数据库。内置mapper生成器。
+  tags: ["Python"]
+
+- name: gorm
+  logo: images/skills/go.png
+  role: ORM
+  timeline: "约2019年12月创建"
+  repo: https://github.com/lyoshur/gorm
+  #url: ""
+  summary: Go下的仿mybatis数据库ORM框架，借助于go中的抽象接口，理论上适用于所有关系型数据库。
+  tags: ["Go"]
+
+- name: golog
+  logo: images/skills/go.png
+  role: 日志框架
+  timeline: "约2020年6月创建"
+  repo: https://github.com/lyoshur/golog
+  #url: ""
+  summary: Go下的日志框架，灵感来自python，支持文件分割，日志保存到数据库。
+  tags: ["Go"]
+
+- name: tabledbmapper
+  logo: images/skills/python.png
+  role: ORM
+  timeline: "约2020年6月创建"
+  repo: https://github.com/lyoshur/tabledbmapper
+  #url: ""
+  summary: mysqlmapper的基础依赖库，理论上支持所有关系型数据库。
+  tags: ["Python"]
+
+- name: mobar
+  logo: images/skills/java.png
+  role: 生成器
+  timeline: "约2019年1月创建"
+  repo: https://github.com/lyoshur/mobar
+  summary: Java语言编写的模板生成器，可生成SSM代码，数据库设计文档等。
+  tags: ["Java"]
+
+- name: agentutils
+  logo: images/skills/go.png
+  role: 生成器
+  timeline: "约2020年7月创建"
+  repo: https://github.com/lyoshur/agentutils
+  summary: Go编写的代理服务器依赖库，封装了反向代理常用的工具类。
+  tags: ["Go"]
+
+- name: gutils
+  logo: images/skills/go.png
+  role: 工具类
+  timeline: "约2020年1月创建"
+  repo: https://github.com/lyoshur/gutils
+  summary: 提供了Go语言开发常用工具，例如依赖注入、缓存、配置文件、加解密、定时任务、参数校验等。
+  tags: ["Go"]

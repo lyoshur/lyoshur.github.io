@@ -1,0 +1,33 @@
+# More documentation here: https://github.com/nicksnyder/go-i18n
+[home]
+other = "主页"
+
+[posts]
+other = "文章"
+
+[at]
+other = "任职于"
+
+[resume]
+other = "我的简历"
+
+[navigation]
+other = "导航"
+
+[contact_me]
+other = "联系我："
+
+[newsletter_text]
+other = "通过电子邮件获取最新消息"
+
+[newsletter_input_placeholder]
+other = "输入电子邮件"
+
+[newsletter_warning]
+other = "我们永远不会与其他人共享您的电子邮件。"
+
+[submit]
+other = "提交"
+
+[hugoAttributionText]
+other = "技术支持"

@@ -1,0 +1,74 @@
+# section information
+section:
+  name: 经验
+  id: experiences
+  enable: false
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 河北九度软件科技有限公司.
+    url: "javascript:;"
+    location: 后端程序员
+    # company overview
+    overview: 主要工作内容为根据业务需求，确定软件开发语言以及框架。协调开发周期，根据开发需求，完成开发任务。
+  positions:
+  - designation: Java程序员
+    start: 2018/02
+    end: 2020/11
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 使用spring、springmvc、mybatis或spring boot、mybatis搭建项目初始框架
+    - 基于RBAC权限模型，实现网站权限校验
+    - 使用时间戳/加盐签名保障API接口安全
+    - 配合修复安全扫描测试漏洞
+
+  - designation: Go程序员
+    start: 2018/02
+    end: 2020/11
+    responsibilities:
+    - 基于Iris搭建网站框架
+    - 借鉴mybatis思想，完善SQL查询模块
+    - 使用HostReverseProxy搭建反向代理/接口认证服务
+
+  - designation: Python程序员
+    start: 2018/02
+    end: 2020/11
+    responsibilities:
+    - 使用Django搭建网站框架
+    - 使用仿mybatis模块，完成关联查询与SQL优化
+    - 编写脚本，处理应用缓存
+
+- company:
+    name: 河北九度软件科技有限公司.
+    url: "javascript:;"
+    location: 程序员
+    overview: 因公司业务需求，转型做安卓开发。主要负责业务代码的编写、接口对接。APP加固以及上架.
+  positions:
+  - designation: 安卓程序员
+    start: 2017/07
+    end: 2018/02
+    responsibilities:
+    - 根据UI图搭建APP界面.
+    - 对接后端接口，完成具体业务功能.
+    - 对应用进行加固、上架.
+
+- company:
+    name: 河北九度软件科技有限公司.
+    url: "javascript:;"
+    location: 实习生
+    overview: 主要负责企业内部OA系统开发、企业微信对接、审批流程开发.
+  positions:
+  - designation: 实习程序员
+    start: 2016/07
+    end: 2017/07
+    responsibilities:
+    - OA业务功能开发.
+    - 对接企业微信.
+    - 审批流程开发.

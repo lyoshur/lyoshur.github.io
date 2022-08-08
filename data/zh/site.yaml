@@ -1,0 +1,20 @@
+# Copyright Notice
+copyright: © 2020 Copyright.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: 羡鱼先生的个人主页
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+- name: 笔记本
+  url: https://lyoshur.github.io/stack/
+
+- name: 故事角
+  url: https://lyoshur.github.io/story/
+
+- name: 照片墙
+  url: https://lyoshur.gitee.io/photo/
+
+- name: 旧版
+  url: https://lyoshur.gitee.io/old-lyoshur/

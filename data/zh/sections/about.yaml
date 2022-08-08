@@ -1,0 +1,63 @@
+# section information
+section:
+  name: 简介
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: 一枚野生程序员
+# your company information
+company:
+  name: 暂无.
+  url: "javascript:;"
+
+# your resume. this file path should be relative to you "static" directory
+resume: ""
+
+# a summary about you
+summary: '我是一个有着3+1(实习)年经验的后端开发程序员，能够熟练使用Java、Python、Go、JavaScript等多种编程语言，
+擅长代码封装。在空闲的时间也会偶尔写写前端网站或者安卓。'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "lyoshur@foxmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/lyoshur"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: 独立工作
+  percentage: 85
+  color: blue
+- name: 团队协作
+  percentage: 80
+  color: yellow
+- name: 沟通交流
+  percentage: 80
+  color: pink
+- name: 需求分析
+  percentage: 80
+  color: green
+- name: 快速学习
+  percentage: 85
+  color: sky
+- name: 解决问题
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
